@@ -1,0 +1,95 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body { 
+    margin: 0;
+
+}
+
+h1,h2,h3,h4,h6 {
+    
+    font-family: 'Italiana', serif;
+
+}
+
+h1 {
+
+    font-size: 5rem;
+    color: whitesmoke;
+    margin-block: 0.2em;
+}
+
+h2 {
+
+    font-size: 4rem;
+}
+
+h3 {
+
+    font-size: 3rem;
+}
+
+h4 {
+
+    font-size: 2rem;
+}
+
+h5{
+
+    font-size: 1rem;
+}
+
+p {
+    color:goldenrod;
+    /* font-size: 21px */
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+/* section { 
+    
+    /* color: green; */
+
+
+/* } 
+
+/* this is a class */
+
+footer {
+
+    height: 350px;
+    background-color:blanchedalmond;
+}
+
+.home-article {
+
+    /* border: 10px solid whitesmoke; */
+    border-radius: 16px;
+    background-color: whitesmoke;
+    width: 200px;
+    padding: 20px;
+}
+
+.icon-feature{
+
+    font-size: 4em;
+    color: burlywood;
+
+
+}
+/* this is an id */
+
+#hero {
+
+    background-color: tomato;
+    background-image: url('../img/karl-fredrickson-TYIzeCiZ_60-unsplash.jpg');
+    background-size: cover;
+    text-align: center;
+    height: 60vh;
+
+}
+
+.img-article{
+
+    width: 100%;
+}

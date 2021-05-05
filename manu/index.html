@@ -1,84 +1,207 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Manu Webpage</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <meta name="description" content="just my first webpage">
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Manu Webpage</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name="description" content="just my first webpage">
+    
+    
 
-    <!-- header - start -->
-    <div style="border: 1px solid red;">
-logo
-the menu goes here
-    </div>
+<!-- css - start -->
+<link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+    header {
+        background-color: blanchedalmond;
+    }
+
+</style>
+
+<!-- css - end -->
+
+<!-- Google Fonts Welcome -->
+
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:wght@100&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+
+<!-- header - start -->
+
+
+        <header style="border: 1px solid red;">
+
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
+            <nav>
+
+             <a href="#">About</a> 
+             <a href="#">Features</a>
+             <a href="#">Contact</a>      
+             
+            </nav>
+    
+
+        </header>
 <!-- header - end -->
 
 <!-- hero - start -->
 
-<div style="border: 1px solid yellow">
+    <section id="hero">
 
-    heading 1 
-paragraph
-button
 
-</div>
+        <h1>Heading 1</h1>
+        <p>paragraph</p>
+        <button>This is a CTA</button>
 
+
+    </section>
 <!-- hero - end -->
 
 <!-- blog articles - start -->
 
-<div>
-    <article>Article 1</article>
-    <article>Article 2</article>
-    <article>Article 3</article>article 3
-</div>
+    <section>
+        <article class="home-article">
+            <img src="/manu/img/christiana-rivers-02MLReRp3I8-unsplash.jpg" class="img-article">
+            <h3>Title - Article 1</h3> 
+            <p>Description</p>
+            <div>
+            <img  src="/manu/img/avatar_01.png" alt="Photo of Author">
+            <p>Author Name</p>
+        </div>
 
-<!-- blog articles - end -->
+        </article>
+       
+        <article class="home-article">
 
-<!-- features - start -->
+            <img src="/manu/img/clay-banks-_wkd7XBRfU4-unsplash.jpg" class="img-article">
+            <h3>Title - Article 2</h3> 
+            <p>Description</p>
+            <div>
+            <img src="/manu/img/avatar_02.png" alt="Photo of Ina">
+            <p>Author Name</p>
+        </div>
 
-<div>
+        </article>
+       
+        <article class="home-article"> 
+            
+            <img src="/manu/img/karl-fredrickson-TYIzeCiZ_60-unsplash.jpg" class="img-article">
+            <h3>Title - Article 3</h3> 
+            <p>Description</p>
+            <div>
+            <img src="/manu/img/avatar_03.png" alt="Photo of Julien"> 
+            <p>Author Name</p>
+        </div>
+        
+        </article>
+    </section>
 
-Feature 1
-Feature 2
-Feature 3
-Feature 4
+    <!-- blog articles - end -->
 
-</div>  
+   <!-- features - start -->
+    <section>
+    <!-- feature 1 - start -->
+     <div>
+        <span class="icon-feature">
+            <i class="fas fa-mug-hot"></i>
+        </span>
+        <div>
+        <h4>Temperature</h4>
+        <p>Feature Description</p>
+        </div>
+     </div>
+     <!-- feature 1 - end -->
 
-<!-- features - end -->
+    <!-- feature 2 - start -->
 
-<!-- contact - start -->
+    <div>
+        <span class="icon-feature">
+            <i class="fas fa-coffee"></i>
+        </span>
 
-<div>
-Contact (Title - Heading 3)
-Form name
-Form Email
-Form Message
-</div>
+        <div>
+        <h4>Size</h4>
+        <p>Feature Description</p>
+        </div>
+     </div> 
 
-<!-- contact - end -->
+     <!-- feature 2 - end -->
 
-<!-- footer - start -->
+     <!-- feature 3 - start -->
+       
+     <div>
+        <span class="icon-feature">
+            <i class="fas fa-stroopwafel"></i>
+        </span>
+         <div>
+         <h4>Vegan Pastries</h4>
+         <p>Feature Description</p>
+        
+     </div> 
 
-<div>
+     <!-- feature 3 - end -->
 
-About
-features
-Contact us
+     <!-- feature 4 - start -->
+       
+     <div>
+        <span class="icon-feature">
+            <i class="fas fa-cookie-bite"></i>
+        </span>
+         <div>
+         <h4>Regular Pastries</h4>
+         <p>Feature Description</p>
+     </div> 
+    
+     <!-- feature 4 - end -->
 
-Social media
-Facebook
-Instagram
-Twitter
-</div>
+    </div>  
+    </section>
+    <!-- features - end -->
 
-<!-- footer - end -->
+    <!-- contact - start -->
+    <section>
+    
+        <h3 >(Title - Heading 3)</h3>
+        <div>
+            <form action ="#">
+                <input type ="text">Form name<br><br>
+                <input type ="email">Form Email<br><br>
+                <textarea rows="5" cols="50">Write your message here</textarea><br><br>
+                <input type ="submit" value="send message">
+            </form>
+        </div>
+    </section>
+    <!-- contact - end -->
 
-</body>
-</html>
+    <!-- footer - start -->
+    <footer>
+    
+        <div>
+            <a href="#">About</a>
+            <a href="#">Features</a>
+            <a href="mailto:manu@manu.pro">Email</a>
+            <a href="tel:+4475477778777">Phone</a>
+        </div>
+
+        <div>
+         <h5>Follow Us</h5>
+             <a href="https://www.facebook.com" target="_blank"> 
+                <i class="fab fa-facebook"></i></a>
+             <a href="https://www.instagram.com/macdms" target="_blank"> 
+                <i class="fab fa-instagram"></i></a>
+             <a href="https://www.twitter.com" target="_blank"> 
+                <i class="fab fa-twitter"></i></a>
+            <a href="https:// medium.com" target="_blank">
+                <i class="fab fa-medium"></i></a>
+                
+        </div>
+
+    </div>
+</footer>
+    <!-- footer - end -->
+
+    </body>
+    </html>
