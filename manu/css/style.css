@@ -46,13 +46,6 @@ p {
     /* font-family: 'Poppins', sans-serif; */
 }
 
-/* section { 
-    
-    /* color: green; */
-
-
-/* } 
-
 /* this is a class */
 
 footer {
@@ -61,6 +54,12 @@ footer {
     background-color:blanchedalmond;
 }
 
+.logo-header{
+
+    width: 50px;
+    padding: 5px;
+    color: darkgray;
+}
 .home-article {
 
     /* border: 10px solid whitesmoke; */
