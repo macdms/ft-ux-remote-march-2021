@@ -32,14 +32,15 @@
 <!-- header - start -->
 
 
-        <header style="border: 1px solid blanchedalmond;">
+        <header class="container header">
 
             <img src="img/coffee-logo-png-image.png" class="logo-header">
             <nav>
 
              <a href="#">About</a> 
              <a href="#">Features</a>
-             <a href="#">Contact</a>      
+             <a href="#">Contact</a>
+             <a href="#" class="button-link">Make an order</a>      
              
             </nav>
     
@@ -49,7 +50,7 @@
 
 <!-- hero - start -->
 
-    <section id="hero">
+    <section id="hero" class="container">
 
 
         <h1>Heading 1</h1>
@@ -62,13 +63,13 @@
 
 <!-- blog articles - start -->
 
-    <section>
+    <section id="articles" class="container">
         <article class="home-article">
             <img src="/manu/img/christiana-rivers-02MLReRp3I8-unsplash.jpg" class="img-article">
             <h3>Title - Article 1</h3> 
             <p>Description</p>
-            <div>
-            <img  src="/manu/img/avatar_01.png" alt="Photo of Author">
+            <div class="container author-container">
+            <img  src="/manu/img/avatar_01.png" alt="Photo of Author" class="author-image">
             <p>Author Name</p>
         </div>
 
@@ -79,8 +80,8 @@
             <img src="/manu/img/clay-banks-_wkd7XBRfU4-unsplash.jpg" class="img-article">
             <h3>Title - Article 2</h3> 
             <p>Description</p>
-            <div>
-            <img src="/manu/img/avatar_02.png" alt="Photo of Ina">
+            <div class="container">
+            <img src="/manu/img/avatar_02.png" alt="Photo of Ina" class="author-image">
             <p>Author Name</p>
         </div>
 
@@ -91,8 +92,8 @@
             <img src="/manu/img/karl-fredrickson-TYIzeCiZ_60-unsplash.jpg" class="img-article">
             <h3>Title - Article 3</h3> 
             <p>Description</p>
-            <div>
-            <img src="/manu/img/avatar_03.png" alt="Photo of Julien"> 
+            <div class="container">
+            <img src="/manu/img/avatar_03.png" alt="Photo of Julien" class="author-image"> 
             <p>Author Name</p>
         </div>
         
@@ -102,9 +103,9 @@
     <!-- blog articles - end -->
 
    <!-- features - start -->
-    <section>
+    <section id="features" class="container">
     <!-- feature 1 - start -->
-     <div>
+     <div class="container feature-card">
         <span class="icon-feature">
             <i class="fas fa-mug-hot"></i>
         </span>
@@ -117,11 +118,10 @@
 
     <!-- feature 2 - start -->
 
-    <div>
+    <div class="container feature-card">
         <span class="icon-feature">
             <i class="fas fa-coffee"></i>
         </span>
-
         <div>
         <h4>Size</h4>
         <p>Feature Description</p>
@@ -132,7 +132,7 @@
 
      <!-- feature 3 - start -->
        
-     <div>
+     <div class="container feature-card">
         <span class="icon-feature">
             <i class="fas fa-stroopwafel"></i>
         </span>
@@ -140,20 +140,23 @@
          <h4>Vegan Pastries</h4>
          <p>Feature Description</p>
         
-     </div> 
+     </div>
+    </div>  
 
      <!-- feature 3 - end -->
 
      <!-- feature 4 - start -->
        
-     <div>
+     <div class="container feature-card">
         <span class="icon-feature">
             <i class="fas fa-cookie-bite"></i>
         </span>
          <div>
          <h4>Regular Pastries</h4>
          <p>Feature Description</p>
-     </div> 
+
+     </div>
+    </div>  
     
      <!-- feature 4 - end -->
 
@@ -162,14 +165,34 @@
     <!-- features - end -->
 
     <!-- contact - start -->
-    <section>
+    <section id="contact" class="container">
     
-        <h3 >(Title - Heading 3)</h3>
-        <div>
+        <div class="contact-30">
+            
+            <h3>Get in touch</h3>
+        
+        </div>
+        
+        <div class="contact-70">
             <form action ="#">
-                <input type ="text">Form name<br><br>
-                <input type ="email">Form Email<br><br>
-                <textarea rows="5" cols="50">Write your message here</textarea><br><br>
+                <label for="name">Name</label><br>
+                <input id="name" type ="text" placeholder="coffee master">
+                
+                <br><br>
+                <label for="email">Email</label><br>
+                <input id="email" type ="email" placeholder="coffee.master@beans.com">
+                
+                <br><br>
+                <label for="message">Write your message</label><br>
+                <textarea id="message" rows="5" cols="50" placeholder="Write here"></textarea>
+                
+                <br><br>
+
+                <input type="checkbox" id="terms" checked>
+                <label for="terms">I accept all the terms</label>
+
+                <br><br>
+
                 <input type ="submit" value="send message">
             </form>
         </div>
@@ -177,24 +200,24 @@
     <!-- contact - end -->
 
     <!-- footer - start -->
-    <footer>
+    <footer class="container footer">
     
         <div>
-            <a href="#">About</a>
-            <a href="#">Features</a>
-            <a href="mailto:manu@manu.pro">Email</a>
-            <a href="tel:+4475477778777">Phone</a>
+            <a href="#">About</a><br>
+            <a href="#">Features</a><br>
+            <a href="mailto:manu@manu.pro">Email</a><br>
+            <a href="tel:+4475477778777">Phone</a><br>
         </div>
 
         <div>
          <h5>Follow Us</h5>
-             <a href="https://www.facebook.com" target="_blank"> 
+             <a href="https://www.facebook.com" target="_blank"><span class="icon-social"></span>
                 <i class="fab fa-facebook"></i></a>
-             <a href="https://www.instagram.com/macdms" target="_blank"> 
+             <a href="https://www.instagram.com/macdms" target="_blank"><span class="icon-social"></span> 
                 <i class="fab fa-instagram"></i></a>
-             <a href="https://www.twitter.com" target="_blank"> 
+             <a href="https://www.twitter.com" target="_blank"><span class="icon-social"></span> 
                 <i class="fab fa-twitter"></i></a>
-            <a href="https:// medium.com" target="_blank">
+            <a href="https:// medium.com" target="_blank"><span class="icon-social"></span>
                 <i class="fab fa-medium"></i></a>
                 
         </div>
