@@ -1,0 +1,119 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+
+    background-color:#F2F2F2;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center
+
+}
+
+footer{
+
+    height: 300px;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background-color:#F2F2F2;
+
+}
+
+main{
+
+    height: 1010px;
+
+}
+
+/* this is a class */
+
+
+.logo{
+    width: 210.52px;
+    height: 51.58px;
+    left: 20px;
+    top: 4px;
+}
+
+.nav-text{
+    height: 58px;
+    width: 257px;
+    left: 98px;
+    top: 1px;
+    border-radius: nullpx;
+}
+
+.container{
+
+    display: flex;
+}
+
+.icon-social{
+
+    margin: 5x;
+    display: flex;
+    margin-top: 10%;
+   
+   }
+.icon-social span{
+
+    padding: 10px;
+    left: 96.94%;
+    right: 1.39%;
+    top: 86.33%;
+    bottom: 7.16%;
+}
+
+.main-text-background{
+
+    width: 781px;
+    height: 450px;
+    left: 118px;
+    top: 386px;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.1);
+    margin-right: 30%;
+    margin-top: 7.5%;
+    
+
+}
+
+.main-text-background p {
+
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 70.5px;
+    text-align: left;
+    letter-spacing: 0.13em;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    color: black;
+}
+
+
+
+/* this is an ID */
+
+#hero{
+
+    text-align: center;
+    justify-content:left;
+    background-image:url(/images/Background\ Image.png);
+    background-size: cover;
+    width: 1440px;
+    height: 1010.1px;
+
+    /* flex settings */
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#card{
+
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}

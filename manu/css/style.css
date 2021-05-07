@@ -60,20 +60,20 @@ a:visited{
 
 a:active{
 
-    color:darkgreen
+    color:darkgreen;
 }
 
 /* menu links */
 
-a.menu:link, a.menu:visted{
+a.menu:link {
 
-    color:darkgrey
+    color:darkgrey;
 
 }
 
 a.menu:hover{
 
-    color:sienna
+    color:sienna;
 }
 
 
